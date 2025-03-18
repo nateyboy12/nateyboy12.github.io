@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Space Nova";
+  src: url("/Fonts/space-nova-font/SpaceNova-6Rpd1.otf");
+}
+@font-face {
+  font-family: "Second Space";
+  src: url("/Fonts/second-space-font/SecondSpace-KV1go.ttf");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f0f0;
+  background-image: url("/Images/space.png");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 150vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+ul {
+  list-style-type: "⭐";
+}
+
+.intro {
+  display: grid;
+  grid-column: 1 / -1;
+  border: 2px solid lightblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  grid-area: 1 / 2 / 2 / 3;
+  padding: 0 5vh;
+}
+
+.blog {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.projects {
+  grid-area: 2 / 2 / 3 / 3;
+}
