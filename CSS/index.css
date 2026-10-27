@@ -63,7 +63,7 @@ ul {
   border: 2px solid lightblue;
   padding: 0 5vh;
   overflow-y: auto;
-  background-color: rgba(4, 73, 96, 0.6);
+  background-color: rgba(4, 73, 96, 0.7);
   margin-right: 5vh;
 }
 
@@ -72,5 +72,50 @@ ul {
   border: 2px solid lightblue;
   padding: 0 5vh;
   overflow-y: auto;
-  background-color: rgba(4, 73, 96, 0.6);
+  background-color: rgba(4, 73, 96, 0.7);
+}
+
+.project-body {
+  align-items: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 5vh 0;
+}
+
+main.project {
+  width: min(110vh, 90vw);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightblue;
+  background-color: rgba(4, 73, 96, 0.7);
+  padding: 4vh 5vh;
+}
+
+.project nav {
+  margin-bottom: 2vh;
+}
+
+.project .dates {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.project article p {
+  line-height: 1.6;
+}
+
+.project article a {
+  color: lightblue;
+}
+
+.project article a:hover {
+  color: #848282;
+}
+
+.project .demo-video {
+  width: 100%;
+  height: auto;
+  margin: 1vh 0 2vh;
+  border: 2px solid lightblue;
+  background-color: #000;
 }
